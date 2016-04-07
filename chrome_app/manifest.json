@@ -1,0 +1,16 @@
+{
+    "app": {
+        "background": {
+            "scripts": [ "background.js" ]
+        }
+    },
+    "manifest_version": 2,
+    "name": "GOSU Launcher",
+    "description": "Opens GOSU in a new window",
+    "version": "1.0",
+    "icons": {
+        "16": "gosu-16.png",
+        "128": "gosu-128.png"
+    },
+    "permissions": ["webview", "clipboardRead", "clipboardWrite", "pointerLock", "geolocation", "audioCapture", "videoCapture", "http://*.go.su/", "https://*.go.su/"]
+}

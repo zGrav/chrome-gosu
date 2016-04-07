@@ -1,0 +1,21 @@
+{
+    "name": "GOSU Button",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Opens GOSU in a new tab",
+    "browser_action": {
+        "default_icon": "gosu-128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "gosu-16.png",
+        "128": "gosu-128.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
